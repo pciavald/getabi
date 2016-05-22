@@ -1,0 +1,34 @@
+{
+  "name": "getabi",
+  "version": "1.0.0",
+  "description": "gets the prototypes of functions in smart contract at given address",
+  "main": "getabi.js",
+  "scripts": {
+    "test": "node getabi.js 0xbb9bc244d798123fde783fcc1c72d3bb8c189413"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pciavald/getabi.git"
+  },
+  "keywords": [
+    "get",
+    "abi",
+    "prototype",
+    "function",
+    "smart",
+    "contract",
+    "ethereum"
+  ],
+  "dependencies":
+  {
+	  "request": "",
+	  "cheerio": "",
+	  "html-entities": ""
+  },
+  "author": "Pierre-Alexis Ciavaldini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pciavald/getabi/issues"
+  },
+  "homepage": "https://github.com/pciavald/getabi#readme"
+}
